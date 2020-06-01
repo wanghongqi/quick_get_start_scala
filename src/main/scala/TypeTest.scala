@@ -15,5 +15,16 @@ object TypeTest {
     println(l)
     val m:AnyRef="sadf" //AnyRef类是Scala里所有引用类(reference class)的基类
     println(m)
+    //多行字符串写法
+    val n:String=
+      """sadfasdf
+sdfdsf
+123"""
+    println(n)
+    val o:String=
+      """stringO
+        |sdfsd
+        |123213213""".stripMargin
+    println(o)
   }
 }
